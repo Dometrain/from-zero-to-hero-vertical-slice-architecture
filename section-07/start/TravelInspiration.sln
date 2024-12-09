@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TravelInspiration.API", "TravelInspiration.API\TravelInspiration.API.csproj", "{5594BA9E-09DB-4B71-8AD1-00B5AC862E90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExternalDestinationSearch.API", "ExternalDestinationSearch.API\ExternalDestinationSearch.API.csproj", "{9EFB50EA-39DD-4A60-8F95-55D69A9AD369}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5594BA9E-09DB-4B71-8AD1-00B5AC862E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5594BA9E-09DB-4B71-8AD1-00B5AC862E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5594BA9E-09DB-4B71-8AD1-00B5AC862E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5594BA9E-09DB-4B71-8AD1-00B5AC862E90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EFB50EA-39DD-4A60-8F95-55D69A9AD369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EFB50EA-39DD-4A60-8F95-55D69A9AD369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EFB50EA-39DD-4A60-8F95-55D69A9AD369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EFB50EA-39DD-4A60-8F95-55D69A9AD369}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D85D069-4E15-45F0-82AA-7750E4657C76}
+	EndGlobalSection
+EndGlobal

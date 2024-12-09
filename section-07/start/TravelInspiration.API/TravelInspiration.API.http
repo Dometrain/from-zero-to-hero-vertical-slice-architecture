@@ -1,0 +1,50 @@
+@HostAddressRoot = https://localhost:7293
+
+GET {{HostAddressRoot}}/api/destinations?searchFor=a
+Accept: application/json
+
+###
+
+GET {{HostAddressRoot}}/api/destinations
+Accept: application/json
+
+###
+GET {{HostAddressRoot}}/api/itineraries?searchFor=Paris
+Accept: application/json
+
+###
+GET {{HostAddressRoot}}/api/itineraries/1/stops
+Accept: application/json 
+
+###
+GET {{HostAddressRoot}}/api/itineraries/1111/stops
+Accept: application/json 
+
+###
+POST {{HostAddressRoot}}/api/itineraries/1/stops
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "A stop for testing",
+  "imageUri": "https://localhost:7120/images/stopfortesting.jpg"
+}
+
+
+###
+POST {{HostAddressRoot}}/api/itineraries/1/stops
+Accept: application/json
+Content-Type: application/json
+
+{ 
+  "imageUri": "https://localhost:7120/images/stopfortesting.jpg"
+}
+
+###
+POST {{HostAddressRoot}}/api/itineraries/1/stops
+Accept: application/json
+Content-Type: application/json
+
+{ 
+  "imageUri": "thisisnotvalid"
+}
