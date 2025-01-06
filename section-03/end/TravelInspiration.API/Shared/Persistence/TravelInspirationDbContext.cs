@@ -17,14 +17,14 @@ public sealed class TravelInspirationDbContext(
                 Id = 1,
                 Description = "Five great days in Paris",
                 CreatedBy = "DATASEED",
-                CreatedOn = DateTime.UtcNow
+                CreatedOn = new DateTime(2025, 01, 06)
             },
              new Itinerary("Antwerp Extravaganza", "dummyuserid")
              {
                  Id = 2,
                  Description = "A week in beautiful Antwerp",
                  CreatedBy = "DATASEED",
-                 CreatedOn = DateTime.UtcNow
+                 CreatedOn = new DateTime(2025, 01, 06)
              });
 
         modelBuilder.Entity<Stop>().HasData(
@@ -34,7 +34,7 @@ public sealed class TravelInspirationDbContext(
                  ItineraryId = 1,
                  ImageUri = new Uri("https://localhost:7120/images/eiffeltower.jpg"),
                  CreatedBy = "DATASEED",
-                 CreatedOn = DateTime.UtcNow
+                 CreatedOn = new DateTime(2025, 01, 06)
              },
              new("The Louvre")
              {
@@ -42,7 +42,7 @@ public sealed class TravelInspirationDbContext(
                  ItineraryId = 1,
                  ImageUri = new Uri("https://localhost:7120/images/louvre.jpg"),
                  CreatedBy = "DATASEED",
-                 CreatedOn = DateTime.UtcNow
+                 CreatedOn = new DateTime(2025, 01, 06)
              },
              new("Père Lachaise Cemetery")
              {
@@ -50,7 +50,7 @@ public sealed class TravelInspirationDbContext(
                  ItineraryId = 1,
                  ImageUri = new Uri("https://localhost:7120/images/perelachaise.jpg"),
                  CreatedBy = "DATASEED",
-                 CreatedOn = DateTime.UtcNow
+                 CreatedOn = new DateTime(2025, 01, 06)
              },
              new("The Royal Museum of Beautiful Arts")
              {
@@ -58,7 +58,7 @@ public sealed class TravelInspirationDbContext(
                  ItineraryId = 2,
                  ImageUri = new Uri("https://localhost:7120/images/royalmuseum.jpg"),
                  CreatedBy = "DATASEED",
-                 CreatedOn = DateTime.UtcNow
+                 CreatedOn = new DateTime(2025, 01, 06)
              },
              new("Saint Paul's Church")
              {
@@ -66,7 +66,7 @@ public sealed class TravelInspirationDbContext(
                  ItineraryId = 2,
                  ImageUri = new Uri("https://localhost:7120/images/stpauls.jpg"),
                  CreatedBy = "DATASEED",
-                 CreatedOn = DateTime.UtcNow
+                 CreatedOn = new DateTime(2025, 01, 06)
              },
              new("Michelin Restaurant Visit")
              {
@@ -74,7 +74,7 @@ public sealed class TravelInspirationDbContext(
                  ItineraryId = 2,
                  ImageUri = new Uri("https://localhost:7120/images/michelin.jpg"),
                  CreatedBy = "DATASEED",
-                 CreatedOn = DateTime.UtcNow
+                 CreatedOn = new DateTime(2025, 01, 06)
              });
         modelBuilder.ApplyConfigurationsFromAssembly(
             typeof(TravelInspirationDbContext).Assembly);

@@ -17,7 +17,7 @@ namespace TravelInspiration.API.Shared.Persistence.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.4")
+                .HasAnnotation("ProductVersion", "9.0.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -66,7 +66,7 @@ namespace TravelInspiration.API.Shared.Persistence.Migrations
                         {
                             Id = 1,
                             CreatedBy = "DATASEED",
-                            CreatedOn = new DateTime(2024, 4, 29, 8, 38, 56, 446, DateTimeKind.Utc).AddTicks(5964),
+                            CreatedOn = new DateTime(2025, 1, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Five great days in Paris",
                             Name = "A Trip to Paris",
                             UserId = "dummyuserid"
@@ -75,7 +75,7 @@ namespace TravelInspiration.API.Shared.Persistence.Migrations
                         {
                             Id = 2,
                             CreatedBy = "DATASEED",
-                            CreatedOn = new DateTime(2024, 4, 29, 8, 38, 56, 446, DateTimeKind.Utc).AddTicks(5969),
+                            CreatedOn = new DateTime(2025, 1, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "A week in beautiful Antwerp",
                             Name = "Antwerp Extravaganza",
                             UserId = "dummyuserid"
@@ -130,7 +130,7 @@ namespace TravelInspiration.API.Shared.Persistence.Migrations
                         {
                             Id = 1,
                             CreatedBy = "DATASEED",
-                            CreatedOn = new DateTime(2024, 4, 29, 8, 38, 56, 446, DateTimeKind.Utc).AddTicks(6278),
+                            CreatedOn = new DateTime(2025, 1, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             ImageUri = "https://localhost:7120/images/eiffeltower.jpg",
                             ItineraryId = 1,
                             Name = "The Eiffel Tower"
@@ -139,7 +139,7 @@ namespace TravelInspiration.API.Shared.Persistence.Migrations
                         {
                             Id = 2,
                             CreatedBy = "DATASEED",
-                            CreatedOn = new DateTime(2024, 4, 29, 8, 38, 56, 446, DateTimeKind.Utc).AddTicks(6287),
+                            CreatedOn = new DateTime(2025, 1, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             ImageUri = "https://localhost:7120/images/louvre.jpg",
                             ItineraryId = 1,
                             Name = "The Louvre"
@@ -148,7 +148,7 @@ namespace TravelInspiration.API.Shared.Persistence.Migrations
                         {
                             Id = 3,
                             CreatedBy = "DATASEED",
-                            CreatedOn = new DateTime(2024, 4, 29, 8, 38, 56, 446, DateTimeKind.Utc).AddTicks(6386),
+                            CreatedOn = new DateTime(2025, 1, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             ImageUri = "https://localhost:7120/images/perelachaise.jpg",
                             ItineraryId = 1,
                             Name = "Père Lachaise Cemetery"
@@ -157,7 +157,7 @@ namespace TravelInspiration.API.Shared.Persistence.Migrations
                         {
                             Id = 4,
                             CreatedBy = "DATASEED",
-                            CreatedOn = new DateTime(2024, 4, 29, 8, 38, 56, 446, DateTimeKind.Utc).AddTicks(6394),
+                            CreatedOn = new DateTime(2025, 1, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             ImageUri = "https://localhost:7120/images/royalmuseum.jpg",
                             ItineraryId = 2,
                             Name = "The Royal Museum of Beautiful Arts"
@@ -166,7 +166,7 @@ namespace TravelInspiration.API.Shared.Persistence.Migrations
                         {
                             Id = 5,
                             CreatedBy = "DATASEED",
-                            CreatedOn = new DateTime(2024, 4, 29, 8, 38, 56, 446, DateTimeKind.Utc).AddTicks(6402),
+                            CreatedOn = new DateTime(2025, 1, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             ImageUri = "https://localhost:7120/images/stpauls.jpg",
                             ItineraryId = 2,
                             Name = "Saint Paul's Church"
@@ -175,7 +175,7 @@ namespace TravelInspiration.API.Shared.Persistence.Migrations
                         {
                             Id = 6,
                             CreatedBy = "DATASEED",
-                            CreatedOn = new DateTime(2024, 4, 29, 8, 38, 56, 446, DateTimeKind.Utc).AddTicks(6407),
+                            CreatedOn = new DateTime(2025, 1, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             ImageUri = "https://localhost:7120/images/michelin.jpg",
                             ItineraryId = 2,
                             Name = "Michelin Restaurant Visit"
